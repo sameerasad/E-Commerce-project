@@ -1,28 +1,25 @@
 import React from "react";
 import {
   AppBar,
-  
   IconButton,
+  Toolbar,
   menuItem,
   Menu,
   Typography,
   Badge,
 } from "@material-ui/core";
-import ToolBar from "./ToolBar";
 import { ShoppingCart } from "@material-ui/icons";
-import {useStles} from "./styles"
+import useStyles from "./styles";
 import logo from "../../assets/commerce.png";
-import classes from "*.module.css";
 
 const Navbar = () => {
-const classes = useStyles();
+  const classes = useStyles();
   return (
     <>
       <AppBar position="fixed" color="inherit" classes={classes.appBar}>
-        //this is navigationbar
-        <ToolBar>
+        <Toolbar>
           <Typography color="inherit" variant="h6" classes={classes.title}>
-            <image src={logo} height="25px" />
+            <image src={logo} height="25px" className={classes.image} />
             Web-Store
           </Typography>
           <div className={classes.grow} />
@@ -33,7 +30,7 @@ const classes = useStyles();
               </Badge>
             </IconButton>
           </div>
-        </ToolBar>
+        </Toolbar>
       </AppBar>
     </>
   );
