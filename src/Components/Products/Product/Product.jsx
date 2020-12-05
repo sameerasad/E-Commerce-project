@@ -1,5 +1,5 @@
 import React from "react";
-import { useStyles } from "./Styles";
+import useStyles from "./styles";
 import {
   Card,
   CardContent,
@@ -7,11 +7,11 @@ import {
   CardButton,
   Typography,
   IconButton,
+  CardMedia,
 } from "@material-ui/core";
 import { AddShoppingCart } from "@material-ui/icons";
 
 const Product = ({ product }) => {
-  console.log(product);
   const classes = useStyles();
   return (
     <Card className={classes.root}>
