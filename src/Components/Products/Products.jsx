@@ -52,22 +52,6 @@ const stuff = [
     image:
       "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
   },
-  {
-    id: 7,
-    name: "laptop",
-    description: "dell computer",
-    price: "$100",
-    image:
-      "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-  },
-  {
-    id: 8,
-    name: "shoes",
-    description: "running jogers",
-    price: "$10",
-    image:
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/449c838942da409f8ba9a97f00d3cffe_9366/Runfalcon_Shoes_Black_F36199_01_standard.jpg",
-  },
 ];
 
 const Products = () => {
